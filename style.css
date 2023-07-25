@@ -1,0 +1,386 @@
+
+body{
+	
+	background: rgb(104,244,242);
+background: radial-gradient(circle, rgba(104,244,242,1) 0%, rgba(44,121,120,1) 100%);
+	border:1px solid black;
+	height: 100vh;
+	width:100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Bruno Ace SC', cursive;
+	
+}
+
+#center img{
+	height: 150px;
+	width:150px;
+	/*border:1px solid black;*/
+	
+}
+#temp{
+	font-size: 80px;
+	/*border:1px solid black;*/
+	padding:0;
+	margin:0px;
+	position: relative;
+	top:-10px;
+
+}
+#celcius{
+	font-size: 60px;
+	/*border:1px solid black;*/
+	position: relative;
+	top:-10px;
+}
+#bottom img{
+	
+}
+#center_details{
+	color:white;
+
+
+}
+
+.main{
+	border:1px solid black;
+	height:100vh;
+	width:100vw;
+	
+}
+
+
+#headerDiv{
+	text-align: center;
+	
+}
+header{
+	padding:5px;
+	/*border:1px solid black;*/
+	background-color: rgba(0,0,0,0.3);
+	height:20%;
+	color:white;
+
+	/*box-shadow: 5px 5px 15px;*/
+}
+#center{
+	text-align: center;
+}
+#input{
+	margin-bottom: 5px;
+	border-radius: 5px;
+	text-indent: 5px;
+}
+#weather_situation{
+	font-size:30px;
+	/*border:1px solid black;*/
+	position: relative;
+	top:-40px;
+}
+#distict{
+	font-size:50px;
+	/*border:1px solid black;*/
+	position: relative;
+	top:-60px;
+}
+#bottom{
+	position:relative;
+	top:0px;
+	display: flex;
+	bottom:0px;
+	width:100%;
+	/*border:1px solid black;*/
+	justify-content: space-around;
+	background-color: rgba(0,0,0,0.3);
+	height: 65px;
+
+
+}
+.btmimg{
+	height: 45px;
+	width:45px;
+	float:left;
+}
+.img-details{
+	margin-left: 5px;
+	color:white;
+	font-size:10px;
+	
+}
+.units{
+	margin-left:5px;
+	color:white;
+}
+.sign{
+	word-wrap: break-word;
+	color:white;
+	margin-left: -5px;
+}
+#humidity2{
+	position: relative;
+	top:45%;
+	right:32%;
+
+}
+h1{
+	letter-spacing: 2px;
+}
+button{
+	border-radius: 5px;
+}
+.btmdiv{
+	margin-top:10px;
+}
+
+
+
+
+
+
+/*header{
+	border:1px solid red;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width:inherit;
+	margin-top: inherit;
+	height:15vh;
+	background-color: rgba(16, 4, 2,0.3)
+
+
+}
+#input{
+	height: 1.7rem;
+	width:20rem;
+	border-radius: 5px;
+	font-size:1rem;
+	text-indent: 5px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+#button{
+	height:2rem;
+	margin-right:2rem;
+	border:1px solid black;
+	border-radius: 5px;
+	width:5rem;
+}
+header h1{
+	padding-left:20px;
+}
+
+#center{
+	border:1px solid violet;
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height:70vh;
+}
+#center img{
+	height:100px;
+	width:100px;
+}
+footer{
+	border:1px solid yellow;
+	display:flex;
+	justify-content: space-evenly;
+	height:15vh;
+	margin-bottom:inherit;
+}
+.bttmimg{
+	height:100px;
+	width:100px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*h1{
+	font-size:30px;
+	border:1px solid black;
+	margin-left: 10px;
+	font-family: 'Bruno Ace SC', cursive;
+	letter-spacing: 2px;
+	color:white;
+}
+input{
+	height:35px;
+	width:500px;
+	margin-right: 500px;
+	font-size:20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border:1px solid black;
+	border-right: none;
+	text-indent: 2%;
+	font-family: 'Bruno Ace SC', cursive;
+}
+input:focus {
+	border:1px solid black;
+	
+	
+}
+#button{
+	height: 39px;
+	width:50px;
+	position:absolute;
+	top:16px;
+	left:865px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	cursor: pointer;
+	background-color: white;
+	border:none;
+	border:1px solid black;
+
+}
+#button:hover{
+	background-color: lightgrey;
+}
+#button img{
+	height: 20px;
+	width:20px;
+	padding-right: 7px;
+	padding-top:4px;
+}
+#center{
+	/border:1px solid black;
+	height: 490px;
+	/display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	position: relative;
+	text-align:center;
+
+}
+#center img{
+	border-right: 3px solid white;
+	height: 350px;
+	position:relative;
+
+	top:70px;
+	left:-200px;
+	
+
+
+}
+#temp{
+
+	font-size:120px;
+	
+	font-family: 'Bruno Ace SC', cursive;
+	position: absolute;
+	top:130px;
+	left:670px;
+	width:auto;
+}
+#celcius{
+	font-size:120px;
+	font-family: 'Bruno Ace SC', cursive;
+	
+	position: absolute;
+	top:130px;
+	
+	left:auto;
+	width:auto;
+	
+}
+#weather_situation{
+	
+	position:absolute;
+	top:270px;
+	left:680px;
+	font-size:40px;
+}
+#distict{
+	font-size:30px;
+	
+	
+	font-family: 'Bruno Ace SC', cursive;
+	position: absolute;
+	top:320px;
+	left:680px;
+}
+#temp,#celcius{
+	
+}
+#bottom{
+	background-color: rgba(0,0,0,0.2);
+
+}
+.bttmimg{
+	height: 80px;
+	width: 80px;
+
+
+}
+.btmdiv{
+	display:inline;
+	
+	position:relative;
+	text-align: center;
+	padding-top:10px;
+	font-family: 'Bruno Ace SC', cursive;
+	letter-spacing: 2px;
+}
+#bottom{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	color:white;
+
+}
+.img-details{
+
+	position:absolute;
+	top:5px;
+	left:90px;
+	font-size:20px;
+
+}
+.units{
+	font-size:30px;
+
+	position: relative;
+	top:-20px;
+	left:3px;
+
+}
+#percent{
+	position:relative;
+	top:0px;
+}
+#km{
+	position:absolute;
+	top:40px;
+	left:150px;
+}
+
+#long{
+	margin-left:90px;
+}
+#unit{
+	position: absolute;
+	top:55px;
+	left:147px;
+}
+#percent{
+	position:absolute;
+	top:40px;
+	left:140px;
+}
+#button2{
+	display: none;
+}
+
+
+
